@@ -36,7 +36,6 @@
 
         const actionid = window.location.href.replace('https://dashboard.cpolar.com/status?','')
 
-        window.location.href = names[actionid].url
 
         switch(actionid){
             case "1":
