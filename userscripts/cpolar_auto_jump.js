@@ -45,10 +45,10 @@
                 window.location.href = navs.Alist.https
                 break;
             case "3":
-                window.location.href = navs.apache.http
+                window.location.href = navs.apache.http + "/check.php"
                 break;
             case "4":
-                window.location.href = navs.apache.https
+                window.location.href = navs.apache.https + "/check.php"
                 break;
             case "5":
                 window.location.href = navs.cpolarpanel.http
