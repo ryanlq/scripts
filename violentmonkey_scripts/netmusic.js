@@ -4,7 +4,7 @@
 // @match       https://music.163.com/*
 // @grant       GM_addStyle
 // @grant       unsafeWindow
-// @version     1.2
+// @version     1.3
 // @author      xdaoo
 // @description 2024/3/2 19:36:19
 // ==/UserScript==
@@ -16,7 +16,7 @@ window.onload = function(){
     GM_addStyle('.u-btn2, .u-btn2 i, .u-btn2 .icn, .u-btni, .u-btni i, .u-tag, .u-tag i, .u-btni-addply .ply {background:#000 !important}')
       
       
-    GM_addStyle('.icn-add,icn-fav,icn-share,icn-dl {background:#eee !important}')
+    GM_addStyle('.icn-add,.icn-fav,.icn-share,.icn-dl {background:#eee !important}')
   
     let t = document.querySelector('table')
   
