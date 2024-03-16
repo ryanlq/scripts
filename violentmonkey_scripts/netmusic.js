@@ -12,10 +12,9 @@
 window.onload = function(){
 
     GM_addStyle('.g-bd4 {background:#000 !important}')
-    GM_addStyle('.m-table th, .m-table th .wp, .m-table td, .m-table .ply, .m-table .mv, .m-table .icn, .m-info .edit {background:#000 !important}')
+    GM_addStyle('.m-table th, .m-table th .wp, .m-table td, .m-table .ply, .m-table .mv, .m-table .icn, .m-info .edit {background-color:#000 !important}')
     GM_addStyle('.u-btn2, .u-btn2 i, .u-btn2 .icn, .u-btni, .u-btni i, .u-tag, .u-tag i, .u-btni-addply .ply {background:#000 !important}')
       
-    GM_addStyle('.m-table th, .m-table th .wp, .m-table td, .m-table .ply, .m-table .mv, .m-table .icn, .m-info .edit {background:#000 !important}')
     
     // GM_addStyle('.icn-add,.icn-fav,.icn-share,.icn-dl {padding: 1px; background-color:#ff0303 !important;}')
   
