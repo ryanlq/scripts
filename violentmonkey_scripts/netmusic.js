@@ -4,7 +4,7 @@
 // @match       https://music.163.com/*
 // @grant       GM_addStyle
 // @grant       unsafeWindow
-// @version     1.5
+// @version     1.6
 // @author      xdaoo
 // @description 2024/3/2 19:36:19
 // ==/UserScript==
