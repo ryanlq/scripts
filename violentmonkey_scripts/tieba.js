@@ -4,7 +4,7 @@
 // @match       https://tieba.baidu.com/*
 // @grant       GM_addStyle
 // @grant       unsafeWindow
-// @version     1.1
+// @version     2.0
 // @author      xdaoo
 // @description 2024/2/27 13:22:41
 // ==/UserScript==
