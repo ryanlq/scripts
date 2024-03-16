@@ -11,12 +11,12 @@
 
 window.onload = function(){
 
-    const ad = document.querySelector(".b_ad")
-    GM_addStyle('.b_ad {display:none !important;}')
+  const items = document.querySelectorAll(".b_algo")
+  items.forEach(item=>{
+    if(!item.firstChild.classList.contains("tpcn"))
+      item.style = "display:none !important";
+  })
   
-    //检测到b_ad样式修改，bing会将b_ad节点设为空，重新渲染一个正常的节点。
-    if(ad.children[0] && ad.children[0].children.length  == 0)
-        ad.nextSibling.style = "display:none !important"
-  }
+}
   
   
