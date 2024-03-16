@@ -3,7 +3,7 @@
 // @namespace   Violentmonkey Scripts
 // @match       *://*.zhihu.com/*
 // @grant       none
-// @version     1.0
+// @version     1.1
 // @author      xdaoo
 // @description 2023/2/17 16:02:47
 // ==/UserScript==

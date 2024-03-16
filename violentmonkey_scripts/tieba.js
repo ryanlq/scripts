@@ -3,8 +3,9 @@
 // @namespace   Violentmonkey Scripts
 // @match       https://tieba.baidu.com/*
 // @grant       GM_addStyle
-// @grant       unsafeWindow// @version     1.0
-// @author      -
+// @grant       unsafeWindow
+// @version     1.1
+// @author      xdaoo
 // @description 2024/2/27 13:22:41
 // ==/UserScript==
 

@@ -3,8 +3,8 @@
 // @namespace   Violentmonkey Scripts
 // @match       https://dashboard.cpolar.com/status*
 // @grant       none
-// @version     1.0
-// @author      -
+// @version     1.1
+// @author      xdaoo
 // @description 2024/2/22 15:58:16
 // ==/UserScript==
 

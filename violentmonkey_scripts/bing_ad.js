@@ -4,8 +4,8 @@
 // @match       https://cn.bing.com/search*
 // @grant       GM_addStyle
 // @grant       unsafeWindow
-// @version     1.0
-// @author      -
+// @version     1.1
+// @author      xdaoo
 // @description 2024/3/16 12:35:09
 // ==/UserScript==
 
