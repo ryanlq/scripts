@@ -13,7 +13,7 @@ window.onload = function(){
 
   const items = document.querySelectorAll(".b_algo")
   items.forEach(item=>{
-    if(!item.firstChild.classList.contains("tpcn"))
+    if(!item.firstChild.classList.contains("b_tpcn"))
       item.style = "display:none !important";
   })
   
