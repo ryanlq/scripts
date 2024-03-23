@@ -4,12 +4,14 @@
 // @match       https://cn.bing.com/search*
 // @grant       GM_addStyle
 // @grant       unsafeWindow
-// @version     1.2
+// @version     1.3
 // @author      xdaoo
 // @description 2024/3/16 12:35:09
 // ==/UserScript==
 
 window.onload = function(){
+
+  GM_addStyle('.b_ad {display:none !important}')
 
   const items = document.querySelectorAll(".b_algo")
   items.forEach(item=>{
