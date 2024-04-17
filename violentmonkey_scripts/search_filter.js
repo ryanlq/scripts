@@ -1,7 +1,7 @@
 // ==UserScript==
 // @name         search-result-filter
 // @namespace    xdaoo
-// @version      1.0
+// @version      1.1
 // @description  搜索引擎过滤
 // @match          https://*.google.com/search*
 // @match          https://*.google.com.hk/search*
@@ -11,9 +11,15 @@
 // ==/UserScript==
 (function () {
     'use strict';
-
     window.onload = function(){
 
+        
+        const blocklist = [
+            "csdn.net",
+            "linux.do"
+        ]
+        
+        const blockliststr = ' -site:' + blocklist.join(' -site:')
         function getSearchInput(engine){
             if(engine == "bing"){
                 return  document.querySelector('#sb_form_q');
@@ -33,13 +39,15 @@
                         || document.querySelector('input[type="submit"]')
                         || document.querySelector('#su')
         const searchInput = getSearchInput(searchEngine)
+        searchInput.value = searchInput.value.replace(blockliststr,'')
+
         searchBtn.addEventListener('mousedown', (e)=> {
-            const filteredKeyword =  searchInput.value + ' -site:csdn.net' + ' -site:linux.do'
+            const filteredKeyword =  searchInput.value + blockliststr
             searchInput.value = filteredKeyword
         },{passive:true})
         document.body.addEventListener('keydown', (e)=> {
             if (e.keyCode === 13) {
-                const filteredKeyword =  searchInput.value + ' -site:csdn.net' + ' -site:linux.do'
+                const filteredKeyword =  searchInput.value + blockliststr
                 searchInput.value = filteredKeyword
             }
         },{passive:true})
