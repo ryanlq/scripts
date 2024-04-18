@@ -1,7 +1,7 @@
 // ==UserScript==
 // @name         search-result-filter
 // @namespace    xdaoo
-// @version      1.1
+// @version      1.2
 // @description  搜索引擎过滤
 // @match          https://*.google.com/search*
 // @match          https://*.google.com.hk/search*
@@ -16,7 +16,8 @@
         
         const blocklist = [
             "csdn.net",
-            "linux.do"
+            "linux.do",
+            "cloud.tencent.com"
         ]
         
         const blockliststr = ' -site:' + blocklist.join(' -site:')
