@@ -16,8 +16,9 @@
         
         const blocklist = [
             "csdn.net",
-            "linux.do",
-            "cloud.tencent.com"
+            "cloud.tencent.com",
+            "linux.do", //"很多内容需要登录，但只能邀请注册!"
+            "zhihu.com" //"经常要验证或登录!"
         ]
         
         const blockliststr = ' -site:' + blocklist.join(' -site:')
