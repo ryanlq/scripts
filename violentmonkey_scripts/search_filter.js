@@ -1,7 +1,7 @@
 // ==UserScript==
 // @name         search-result-filter
 // @namespace    xdaoo
-// @version      1.2
+// @version      1.3
 // @description  搜索引擎过滤
 // @match          https://*.google.com/search*
 // @match          https://*.google.com.hk/search*
