@@ -23,7 +23,7 @@
         const blockliststr = ' -site:' + blocklist.join(' -site:')
         function getSearchInput(engine){
             if(engine == "bing"){
-                return  document.querySelector('#sb_form_q');
+                return  document.querySelector('#sb_form_q') ||document.querySelector('#sb_form_go') || document.querySelector('.b_searchboxSubmit')  ;
             }
             if(engine == "google"){
 
